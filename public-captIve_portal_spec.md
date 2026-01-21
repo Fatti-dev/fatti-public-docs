@@ -12,11 +12,10 @@ The portal generally has three pages:
 - a success page (a page that is shown after an account is successfully created). This page is optional.
 
 Examples of these are shown below:
-<img width="1164" height="2306" alt="Screenshot 2026-01-21 at 18 42 19" src="https://gist.github.com/user-attachments/assets/ff253800-6434-4144-84ef-cb78e53a0a66" />
-<img width="1164" height="972" alt="Screenshot 2026-01-21 at 18 42 49" src="https://gist.github.com/user-attachments/assets/7bb870af-ba2e-46b8-80d1-ee4ad5361864" />
-<img width="1164" height="2092" alt="Screenshot 2026-01-21 at 18 42 57" src="https://gist.github.com/user-attachments/assets/be327979-9e39-4f3a-9cc5-46faeca43d91" />
 
----
+<img src="images/538673258-ff253800-6434-4144-84ef-cb78e53a0a66.png" alt="Landing page" width="450" />
+<img src="images/538673339-7bb870af-ba2e-46b8-80d1-ee4ad5361864.png" alt="Account page" width="450" />
+<img src="images/538673401-be327979-9e39-4f3a-9cc5-46faeca43d91.png" alt="Success page" width="450" />
 
 ## Assets required from client
 
