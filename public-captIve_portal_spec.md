@@ -120,12 +120,12 @@ To ensure accurate measurement and attribution, please provide:
 Monetization of the captive portal, or access to premium services, is a potential revenue source. Below is a list of payment providers we currently support, those that are still in development, and those that we know of but not currently developing.
 
 We currently support:
-- PayPal
+- Credit card or debit (using PayPal as Payment Provider)
     - Process flow
-        1.	User clicks the same PayPal button
+        1.	User clicks the `Debit or Credit Card` button
         2.	PayPal offers “Pay with card”
         3.	User enters card details
-        4.	Payment completes
+        4.	Payment completes and money goes to PayPal Business Account
     - We require the following from the client:
         - **Client ID:** This can be obtained in the developer section of your paypal account.
         - **Login Details:** We can also set everything up for you on the PayPal side, if you provide us with login details for the PayPal account. 
@@ -148,16 +148,15 @@ We are currently investigating the following, but these are not available yet:
         2.	On Safari + Apple device, PayPal may show Apple Pay
         3.	User authenticates with FaceID / TouchID
         4.	PayPal captures the payment
-- Revolut
-
 
 We are aware of other providers, and can do development if required:
 - Stripe
 - Adyen
+- Revolut API
 
 ---
 
-## 8. Final Notes
+## Final Notes
 - You may also build a landing page using a WYSIWYG editor (e.g., WordPress), and we’ll aim to match the layout as closely as possible.
 - https://www.canva.com/photo-editor/ can be a useful tool for creating or resizing images if needed.
 - All assets should be pre-approved by all parties to avoid delays and additional development costs.
