@@ -13,9 +13,10 @@ The portal generally has three pages:
 
 Examples of these are shown below:
 
-<img src="images/538673258-ff253800-6434-4144-84ef-cb78e53a0a66.png" alt="Landing page" width="450" />
-<img src="images/538673339-7bb870af-ba2e-46b8-80d1-ee4ad5361864.png" alt="Account page" width="450" />
-<img src="images/538673401-be327979-9e39-4f3a-9cc5-46faeca43d91.png" alt="Success page" width="450" />
+<img src="images/login_page.png" alt="Landing page" width="450" />
+<img src="images/selfservice_page_1.png" alt="Account page" width="450" />
+<img src="images/selfservice_page_2.png" alt="Account page" width="450" />
+<img src="images/success_page.png" alt="Success page" width="450" />
 
 ## Assets required from client
 
@@ -120,12 +121,12 @@ To ensure accurate measurement and attribution, please provide:
 Monetization of the captive portal, or access to premium services, is a potential revenue source. Below is a list of payment providers we currently support, those that are still in development, and those that we know of but not currently developing.
 
 We currently support:
-- Credit card or debit (using PayPal as Payment Provider)
+- PayPal
     - Process flow
-        1.	User clicks the `Debit or Credit Card` button
+        1.	User clicks the same PayPal button
         2.	PayPal offers “Pay with card”
         3.	User enters card details
-        4.	Payment completes and money goes to PayPal Business Account
+        4.	Payment completes
     - We require the following from the client:
         - **Client ID:** This can be obtained in the developer section of your paypal account.
         - **Login Details:** We can also set everything up for you on the PayPal side, if you provide us with login details for the PayPal account. 
@@ -148,11 +149,12 @@ We are currently investigating the following, but these are not available yet:
         2.	On Safari + Apple device, PayPal may show Apple Pay
         3.	User authenticates with FaceID / TouchID
         4.	PayPal captures the payment
+- Revolut
+
 
 We are aware of other providers, and can do development if required:
 - Stripe
 - Adyen
-- Revolut API
 
 ---
 
